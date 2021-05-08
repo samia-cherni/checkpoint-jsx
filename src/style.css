@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,17 +7,28 @@
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-  }
+}
 body{
     min-height: 100vh;
+    background:repeating-linear-gradient(-45deg,#ffbaba ,#ffbaba 2px,transparent 0,transparent 9px);
+}
+h1{
+    margin-top: 1em;
+}
+img{
+    display:block;
 }
 .title{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 200;
+    font-family: Pacifico;
+    font-weight:bold;
     font-size: x-large;
-    letter-spacing: 1em;
     text-align: center;
 }
 .red{
-    color:red;
+    color:#ff5252;
+    text-shadow: 2px 2px 2px #CCC;
+}
+video{
+    display: block;
+    margin: 5% auto;
 }
